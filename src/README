@@ -1,0 +1,74 @@
+# Task Automation API - Spring Boot
+
+This project is a Task Automation API built with Spring Boot. It provides endpoints to manage tasks, including creating, updating, retrieving, and deleting tasks.
+
+## Features
+
+- Create a new task
+- Update an existing task
+- Retrieve all tasks
+- Retrieve a task by ID
+- Delete a task
+
+## Technologies Used
+
+- Java
+- Spring Boot
+- Spring Data JPA
+- Hibernate
+- H2 Database (for development)
+- Maven
+
+## Getting Started
+
+### Prerequisites
+
+- Java 11 or higher
+- Maven
+
+### Installation
+
+1. Clone the repository:
+   ```sh
+   git clone https://github.com/yourusername/task-automation-api-springboot.git
+   ```
+2. Navigate to the project directory:
+   ```sh
+   cd task-automation-api-springboot
+   ```
+3. Build the project:
+   ```sh
+   mvn clean install
+   ```
+
+### Running the Application
+
+1. Run the application:
+   ```sh
+   mvn spring-boot:run
+   ```
+2. The application will start on `http://localhost:8080`.
+
+### API Endpoints
+
+- `GET /api/tasks` - Retrieve all tasks
+- `GET /api/tasks/{id}` - Retrieve a task by ID
+- `POST /api/tasks` - Create a new task
+- `PUT /api/tasks/{id}` - Update an existing task
+- `DELETE /api/tasks/{id}` - Delete a task
+
+### Example Request
+
+To create a new task, send a POST request to `/api/tasks` with the following JSON body:
+
+```json
+{
+  "title": "New Task",
+  "description": "Description of the new task",
+  "completed": false
+}
+```
+
+## License
+
+This project is licensed under the MIT License.
