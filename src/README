@@ -30,11 +30,11 @@ This project is a Task Automation API built with Spring Boot. It provides endpoi
 
 1. Clone the repository:
    ```sh
-   git clone https://github.com/yourusername/task-automation-api-springboot.git
+   git clone https://github.com/sajadyazdan/task-management-api-springboot.git
    ```
 2. Navigate to the project directory:
    ```sh
-   cd task-automation-api-springboot
+   cd task-management-api-springboot
    ```
 3. Build the project:
    ```sh
